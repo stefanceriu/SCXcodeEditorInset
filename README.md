@@ -1,5 +1,8 @@
 # SCXcodeEditorInset
 SCXcodeEditorInset is a Xcode plugin that adds an empty (configurable) space to the end of the editor text view 
+![](https://dl.dropboxusercontent.com/u/12748201/Recordings/SCXcodeEditorInset/SCXcodeEditorInset.png)
+
+The amount of empty space is configurable through the View/Editor Inset/Size slider which goes from full page height to zero. It defaults to 30%, as highlighted in the screenshot.
 
 #### Installation
 - Through [Alcatraz](https://github.com/supermarin/Alcatraz)
