@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1822804A1B19B54600D22D55 /* NSTabView+SCXcodeEditorInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 182280491B19B54600D22D55 /* NSTabView+SCXcodeEditorInset.m */; };
+		182F51CD1B15B33B009A89F6 /* SCXcodeEditorInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F51CC1B15B33B009A89F6 /* SCXcodeEditorInset.m */; };
+		182F51D41B15B3CF009A89F6 /* DVTSourceTextView+SCXcodeEditorInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F51D31B15B3CF009A89F6 /* DVTSourceTextView+SCXcodeEditorInset.m */; };
+		182F51D71B15B416009A89F6 /* SCXcodeEditorInsetCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F51D61B15B416009A89F6 /* SCXcodeEditorInsetCommon.m */; };
+		185B2DDA1B19B9550011EC0E /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185B2DD91B19B9550011EC0E /* IDEKit.framework */; };
+		186A858A1B17AC91000EA05B /* IDESourceEditor in Frameworks */ = {isa = PBXBuildFile; fileRef = 186A85891B17AC91000EA05B /* IDESourceEditor */; };
+		1883080A1A7411830005DF40 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188308091A7411830005DF40 /* DVTKit.framework */; };
+		18FE09B61707639E00118FEB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE09B51707639E00118FEB /* Cocoa.framework */; };
+		8742532317307161001C947C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8742532217307161001C947C /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18072F771B19B6B1001C1FA3 /* IDEWorkspaceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEWorkspaceWindowController.h; sourceTree = "<group>"; };
+		182280481B19B54600D22D55 /* NSTabView+SCXcodeEditorInset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTabView+SCXcodeEditorInset.h"; sourceTree = "<group>"; };
+		182280491B19B54600D22D55 /* NSTabView+SCXcodeEditorInset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTabView+SCXcodeEditorInset.m"; sourceTree = "<group>"; };
+		182F51CB1B15B33B009A89F6 /* SCXcodeEditorInset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCXcodeEditorInset.h; sourceTree = "<group>"; };
+		182F51CC1B15B33B009A89F6 /* SCXcodeEditorInset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCXcodeEditorInset.m; sourceTree = "<group>"; };
+		182F51CF1B15B38C009A89F6 /* SCXcodeEditorInset-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SCXcodeEditorInset-Info.plist"; sourceTree = "<group>"; };
+		182F51D01B15B38C009A89F6 /* SCXcodeEditorInset-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCXcodeEditorInset-Prefix.pch"; sourceTree = "<group>"; };
+		182F51D21B15B3CF009A89F6 /* DVTSourceTextView+SCXcodeEditorInset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTSourceTextView+SCXcodeEditorInset.h"; sourceTree = "<group>"; };
+		182F51D31B15B3CF009A89F6 /* DVTSourceTextView+SCXcodeEditorInset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTSourceTextView+SCXcodeEditorInset.m"; sourceTree = "<group>"; };
+		182F51D51B15B416009A89F6 /* SCXcodeEditorInsetCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCXcodeEditorInsetCommon.h; sourceTree = "<group>"; };
+		182F51D61B15B416009A89F6 /* SCXcodeEditorInsetCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCXcodeEditorInsetCommon.m; sourceTree = "<group>"; };
+		185B2DD91B19B9550011EC0E /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		186A85841B17AC11000EA05B /* IDEEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEEditor.h; sourceTree = "<group>"; };
+		186A85851B17AC11000EA05B /* IDESourceCodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditor.h; sourceTree = "<group>"; };
+		186A85861B17AC11000EA05B /* IDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEViewController.h; sourceTree = "<group>"; };
+		186A85871B17AC29000EA05B /* DVTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTViewController.h; sourceTree = "<group>"; };
+		186A85891B17AC91000EA05B /* IDESourceEditor */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = IDESourceEditor; path = ../../../../../Applications/Xcode.app/Contents/PlugIns/IDESourceEditor.ideplugin/Contents/MacOS/IDESourceEditor; sourceTree = "<group>"; };
+		188308091A7411830005DF40 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = /Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
+		189229681B19A0CC0036357A /* IDESourceCodeEditorContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditorContainerView.h; sourceTree = "<group>"; };
+		189229691B19A0E90036357A /* DVTSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTSplitView.h; sourceTree = "<group>"; };
+		18B8426E1B15B27200C5518B /* DVTCompletingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTCompletingTextView.h; sourceTree = "<group>"; };
+		18B8427D1B15B27200C5518B /* DVTSourceTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTSourceTextView.h; sourceTree = "<group>"; };
+		18FE09B21707639E00118FEB /* SCXcodeEditorInset.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCXcodeEditorInset.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE09B51707639E00118FEB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		18FE09B81707639E00118FEB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		18FE09BA1707639E00118FEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8742532217307161001C947C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FE09AF1707639E00118FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8742532317307161001C947C /* QuartzCore.framework in Frameworks */,
+				186A858A1B17AC91000EA05B /* IDESourceEditor in Frameworks */,
+				1883080A1A7411830005DF40 /* DVTKit.framework in Frameworks */,
+				18FE09B61707639E00118FEB /* Cocoa.framework in Frameworks */,
+				185B2DDA1B19B9550011EC0E /* IDEKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182F51CE1B15B38C009A89F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182F51CF1B15B38C009A89F6 /* SCXcodeEditorInset-Info.plist */,
+				182F51D01B15B38C009A89F6 /* SCXcodeEditorInset-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B8424F1B15B27200C5518B /* SCXcodeEditorInset */ = {
+			isa = PBXGroup;
+			children = (
+				182F51CB1B15B33B009A89F6 /* SCXcodeEditorInset.h */,
+				182F51CC1B15B33B009A89F6 /* SCXcodeEditorInset.m */,
+				182F51D21B15B3CF009A89F6 /* DVTSourceTextView+SCXcodeEditorInset.h */,
+				182F51D31B15B3CF009A89F6 /* DVTSourceTextView+SCXcodeEditorInset.m */,
+				182280481B19B54600D22D55 /* NSTabView+SCXcodeEditorInset.h */,
+				182280491B19B54600D22D55 /* NSTabView+SCXcodeEditorInset.m */,
+				182F51D51B15B416009A89F6 /* SCXcodeEditorInsetCommon.h */,
+				182F51D61B15B416009A89F6 /* SCXcodeEditorInsetCommon.m */,
+				182F51CE1B15B38C009A89F6 /* Supporting Files */,
+				18B842681B15B27200C5518B /* Xcode Headers */,
+			);
+			path = SCXcodeEditorInset;
+			sourceTree = "<group>";
+		};
+		18B842681B15B27200C5518B /* Xcode Headers */ = {
+			isa = PBXGroup;
+			children = (
+				18B8426E1B15B27200C5518B /* DVTCompletingTextView.h */,
+				18B8427D1B15B27200C5518B /* DVTSourceTextView.h */,
+				189229691B19A0E90036357A /* DVTSplitView.h */,
+				186A85871B17AC29000EA05B /* DVTViewController.h */,
+				186A85841B17AC11000EA05B /* IDEEditor.h */,
+				186A85851B17AC11000EA05B /* IDESourceCodeEditor.h */,
+				189229681B19A0CC0036357A /* IDESourceCodeEditorContainerView.h */,
+				186A85861B17AC11000EA05B /* IDEViewController.h */,
+				18072F771B19B6B1001C1FA3 /* IDEWorkspaceWindowController.h */,
+			);
+			path = "Xcode Headers";
+			sourceTree = "<group>";
+		};
+		18FE09A91707639E00118FEB = {
+			isa = PBXGroup;
+			children = (
+				18B8424F1B15B27200C5518B /* SCXcodeEditorInset */,
+				18FE09B41707639E00118FEB /* Frameworks */,
+				18FE09B31707639E00118FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FE09B31707639E00118FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FE09B21707639E00118FEB /* SCXcodeEditorInset.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FE09B41707639E00118FEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FE09B81707639E00118FEB /* AppKit.framework */,
+				18FE09B51707639E00118FEB /* Cocoa.framework */,
+				188308091A7411830005DF40 /* DVTKit.framework */,
+				18FE09BA1707639E00118FEB /* Foundation.framework */,
+				185B2DD91B19B9550011EC0E /* IDEKit.framework */,
+				186A85891B17AC91000EA05B /* IDESourceEditor */,
+				8742532217307161001C947C /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FE09B11707639E00118FEB /* SCXcodeEditorInset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE09C41707639E00118FEB /* Build configuration list for PBXNativeTarget "SCXcodeEditorInset" */;
+			buildPhases = (
+				18FE09AE1707639E00118FEB /* Sources */,
+				18FE09AF1707639E00118FEB /* Frameworks */,
+				18FE09B01707639E00118FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCXcodeEditorInset;
+			productName = SCXcodeMinimap;
+			productReference = 18FE09B21707639E00118FEB /* SCXcodeEditorInset.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FE09AA1707639E00118FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Stefan Ceriu";
+			};
+			buildConfigurationList = 18FE09AD1707639E00118FEB /* Build configuration list for PBXProject "SCXcodeEditorInset" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18FE09A91707639E00118FEB;
+			productRefGroup = 18FE09B31707639E00118FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FE09B11707639E00118FEB /* SCXcodeEditorInset */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FE09B01707639E00118FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FE09AE1707639E00118FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182F51D71B15B416009A89F6 /* SCXcodeEditorInsetCommon.m in Sources */,
+				182F51CD1B15B33B009A89F6 /* SCXcodeEditorInset.m in Sources */,
+				1822804A1B19B54600D22D55 /* NSTabView+SCXcodeEditorInset.m in Sources */,
+				182F51D41B15B3CF009A89F6 /* DVTSourceTextView+SCXcodeEditorInset.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18FE09C21707639E00118FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18FE09C31707639E00118FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18FE09C51707639E00118FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/OtherFrameworks",
+				);
+				GCC_ENABLE_OBJC_GC = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCXcodeEditorInset/Supporting Files/SCXcodeEditorInset-Prefix.pch";
+				INFOPLIST_FILE = "SCXcodeEditorInset/Supporting Files/SCXcodeEditorInset-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/PlugIns/IDESourceEditor.ideplugin/Contents/MacOS",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/PlugIns/DebuggerUI.ideplugin/Contents/MacOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		18FE09C61707639E00118FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/OtherFrameworks",
+				);
+				GCC_ENABLE_OBJC_GC = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCXcodeEditorInset/Supporting Files/SCXcodeEditorInset-Prefix.pch";
+				INFOPLIST_FILE = "SCXcodeEditorInset/Supporting Files/SCXcodeEditorInset-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/PlugIns/IDESourceEditor.ideplugin/Contents/MacOS",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/PlugIns/DebuggerUI.ideplugin/Contents/MacOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FE09AD1707639E00118FEB /* Build configuration list for PBXProject "SCXcodeEditorInset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE09C21707639E00118FEB /* Debug */,
+				18FE09C31707639E00118FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FE09C41707639E00118FEB /* Build configuration list for PBXNativeTarget "SCXcodeEditorInset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE09C51707639E00118FEB /* Debug */,
+				18FE09C61707639E00118FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FE09AA1707639E00118FEB /* Project object */;
+}
