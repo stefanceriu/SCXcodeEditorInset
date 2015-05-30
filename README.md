@@ -9,9 +9,9 @@ The amount of empty space is configurable through the View/Editor Inset/Size sli
 
 - Download the sources, build the project and restart Xcode
 
-- Download SCXcodeEditorInset.xcplugin.zip from the releases tab, unzip and move it to the  Xcode plugins folder ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SCXcodeMinimap.xcplugin
+- Download SCXcodeEditorInset.xcplugin.zip from the releases tab, unzip and move it to the  Xcode plugins folder ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SCXcodeEditorInset.xcplugin
 
-- If you encounter any issues you can uninstall it by removing the ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SCXcodeMinimap.xcplugin folder
+- If you encounter any issues you can uninstall it by removing the ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SCXcodeEditorInset.xcplugin folder
  
 #### License
 SCXcodeEditorInset is released under the GNU GENERAL PUBLIC LICENSE (see the LICENSE file)
