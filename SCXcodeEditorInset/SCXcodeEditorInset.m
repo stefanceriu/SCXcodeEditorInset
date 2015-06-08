@@ -20,7 +20,7 @@ NSString *const SCXcodeEditorInsetDidChangeInsetNotification = @"SCXcodeEditorIn
 NSString *const IDESourceCodeEditorDidFinishSetupNotification = @"IDESourceCodeEditorDidFinishSetup";
 
 NSString *const kViewMenuItemTitle = @"View";
-NSString *const kEditorInsetMenuItemTitle = @"Editor inset";
+NSString *const kEditorInsetMenuItemTitle = @"Editor Inset";
 NSString *const kSizeMenuItemTitle = @"Size";
 
 static SCXcodeEditorInset *sharedPlugin = nil;
