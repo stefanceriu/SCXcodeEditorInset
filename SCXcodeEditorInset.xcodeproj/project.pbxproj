@@ -12,7 +12,6 @@
 		182F51D41B15B3CF009A89F6 /* DVTSourceTextView+SCXcodeEditorInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F51D31B15B3CF009A89F6 /* DVTSourceTextView+SCXcodeEditorInset.m */; };
 		182F51D71B15B416009A89F6 /* SCXcodeEditorInsetCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F51D61B15B416009A89F6 /* SCXcodeEditorInsetCommon.m */; };
 		185B2DDA1B19B9550011EC0E /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185B2DD91B19B9550011EC0E /* IDEKit.framework */; };
-		186A858A1B17AC91000EA05B /* IDESourceEditor in Frameworks */ = {isa = PBXBuildFile; fileRef = 186A85891B17AC91000EA05B /* IDESourceEditor */; };
 		1883080A1A7411830005DF40 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188308091A7411830005DF40 /* DVTKit.framework */; };
 		18FE09B61707639E00118FEB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE09B51707639E00118FEB /* Cocoa.framework */; };
 		8742532317307161001C947C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8742532217307161001C947C /* QuartzCore.framework */; };
@@ -35,7 +34,6 @@
 		186A85851B17AC11000EA05B /* IDESourceCodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditor.h; sourceTree = "<group>"; };
 		186A85861B17AC11000EA05B /* IDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEViewController.h; sourceTree = "<group>"; };
 		186A85871B17AC29000EA05B /* DVTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTViewController.h; sourceTree = "<group>"; };
-		186A85891B17AC91000EA05B /* IDESourceEditor */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = IDESourceEditor; path = /Applications/Xcode.app/Contents/PlugIns/IDESourceEditor.ideplugin/Contents/MacOS/IDESourceEditor; sourceTree = "<group>"; };
 		188308091A7411830005DF40 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = /Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
 		189229681B19A0CC0036357A /* IDESourceCodeEditorContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditorContainerView.h; sourceTree = "<group>"; };
 		189229691B19A0E90036357A /* DVTSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTSplitView.h; sourceTree = "<group>"; };
@@ -54,7 +52,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8742532317307161001C947C /* QuartzCore.framework in Frameworks */,
-				186A858A1B17AC91000EA05B /* IDESourceEditor in Frameworks */,
 				1883080A1A7411830005DF40 /* DVTKit.framework in Frameworks */,
 				18FE09B61707639E00118FEB /* Cocoa.framework in Frameworks */,
 				185B2DDA1B19B9550011EC0E /* IDEKit.framework in Frameworks */,
@@ -131,7 +128,6 @@
 				188308091A7411830005DF40 /* DVTKit.framework */,
 				18FE09BA1707639E00118FEB /* Foundation.framework */,
 				185B2DD91B19B9550011EC0E /* IDEKit.framework */,
-				186A85891B17AC91000EA05B /* IDESourceEditor */,
 				8742532217307161001C947C /* QuartzCore.framework */,
 			);
 			name = Frameworks;

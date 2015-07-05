@@ -36,11 +36,13 @@ static SCXcodeEditorInset *sharedPlugin = nil;
 
 + (void)pluginDidLoad:(NSBundle *)plugin
 {
-	static dispatch_once_t onceToken;
-	dispatch_once(&onceToken, ^{
-		sharedPlugin = [[self alloc] init];
-	});
-	
+	BOOL isApplicationXcode = [[[NSBundle mainBundle] infoDictionary][@"CFBundleName"] isEqual:@"Xcode"];
+	if (isApplicationXcode) {
+		static dispatch_once_t onceToken;
+		dispatch_once(&onceToken, ^{
+			sharedPlugin = [[self alloc] init];
+		});
+	}
 }
 
 + (SCXcodeEditorInset *)sharedPlugin
