@@ -5,7 +5,7 @@ SCXcodeEditorInset is a Xcode plugin that adds an empty (configurable) space to 
 The amount of empty space is configurable through the View/Editor Inset/Size slider which goes from full page height to zero. It defaults to 30%, as highlighted in the screenshot.
 
 #### Installation
-- Through [Alcatraz](https://github.com/supermarin/Alcatraz)
+- Through [Alcatraz](https://github.com/Alcatraz/Alcatraz)
 
 - Download the sources, build the project and restart Xcode
 
